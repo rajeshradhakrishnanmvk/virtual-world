@@ -3,7 +3,7 @@ class Start extends Marking {
       super(center, directionVector, width, height);
 
       this.img = new Image();
-      this.img.src = "{{site.baseurl}}/assets/images/car.png";
+      this.img.src = "assets/images/car.png";
       this.type = "start";
    }
 
